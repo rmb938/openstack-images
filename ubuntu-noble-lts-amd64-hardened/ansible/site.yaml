@@ -1,0 +1,9 @@
+- name: Bootstrap
+  hosts: all
+  become: true
+  roles:
+    - rmb938.bootstrap
+  vars:
+    is_packer: true
+    step_ca_url: "https://step-ca.us-homelab1.hl.rmb938.me"
+    step_ca_fingerprint: "111301fb085dfc83f5390c0be68df3d68f5584853df0cb4c442383c33f2bd83a"

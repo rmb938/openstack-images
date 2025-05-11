@@ -1,2 +1,3 @@
 # openstack-images
-Openstack Images
+
+Packer automation to build VM Templates for OpenStack.
